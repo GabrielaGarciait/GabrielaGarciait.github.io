@@ -1,0 +1,38 @@
+.card-img-overlay{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  @media screen and (min-width: 992px){
+    .card-img-overlay{
+        width: 40%;
+        margin-left: 50%;
+        margin-right: 10%;
+    }
+}
+
+.buttonColor{
+    background-color: rgb(145, 192, 80);
+    height: 45px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  }
+
+footer{
+    background-color: rgb(41 70 82);
+  }
+
+  footer div a{
+    color: white;
+    text-decoration: none;
+  }
+
+  footer div a:hover{
+    color: white;
+  }
+
+
+  
