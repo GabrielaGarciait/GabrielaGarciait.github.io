@@ -1,0 +1,47 @@
+#comprarTickets{
+  color: rgb(56, 210, 56);
+}
+
+#card1{
+  border-color: blue;
+  border-radius: 0px;
+}
+
+#card2{
+  border-color: rgb(9, 136, 178);
+  border-radius: 0px;
+}
+
+#card3{
+  border-color: orange;
+  border-radius: 0px;
+}
+
+.totalAPagar{
+  background-color: rgb(187, 246, 249);
+  height: 45px;
+  border-radius: 5px;
+  padding-top: 10px;
+  color: blue;
+}
+
+.buttonDos{
+  background-color: rgb(145, 192, 80);
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+}
+
+footer{
+    background-color: rgb(41 70 82);
+  }
+
+  footer div a{
+    color: white;
+    text-decoration: none;
+  }
+
+  footer div a:hover{
+    color: white;
+  }

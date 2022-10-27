@@ -10,35 +10,34 @@
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-dark">
-            <div class="container-fluid d-flex col-sm-3 justify-content-center">
-              <a class="navbar-brand text-white me-0" href="#">
-                <img src="./imagenes/codoacodo.png" alt="" width="80" height="50" class="d-inline-block align-text-center">
-                Conf Bs As
-              </a>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand d-flex justify-content-center col-sm-3 align-items-center me-0" href="#">
+              <img src="./imagenes/codoacodo.png" width="80" height="50">Conf Bs As
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse col-sm-9">
+              <ul class="navbar-nav container-fluid d-flex justify-content-evenly">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">La conferencia</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Los oradores</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">El lugar y la fecha</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Conviértete en orador</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-success" href="./tpIntegradorJS/index.html">Comprar tickets</a>
+                </li>
+              </ul>
             </div>
-            <div class="collapse navbar-collapse col-sm-9" id="navbarNav">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <ul class="navbar-nav container-fluid d-flex justify-content-evenly pe-0">
-                  <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#">Los oradores</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#">El lugar y la fecha</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link text-white-50" href="#">Conviértete en orador</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled text-success" href="#" tabindex="-1" aria-disabled="true">Comprar tickets</a>
-                  </li>
-                </ul>
-            </div>
+          </div>
         </nav>
     </header>
     <main>
@@ -56,7 +55,7 @@
               </p>
               <div class="card-button">
                 <button type="button" class="btn btn-outline-light">Quiero ser orador</button>
-                <button type="button" class="btn btn-success">Comprar tickets</button>
+                <button type="button" class="btn btn-success" onclick="location.href='./tpIntegradorJS/index.html'">Comprar tickets</button>
               </div>
             </div>
           </div>
